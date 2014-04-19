@@ -11,8 +11,8 @@ There Is No Place Like ::1
                  `""") )"""`
       .:*~*:._.:*~*:._.:*~*:._.:*~*:._.
 
-Productivity Tools 🔨
-----------------------
+Productivity Tools
+------------------
 * [1Password](http://www.google.com) - Password Manager.
 * [Alfred](http://www.alfredapp.com/) - Better Spotlight.
 * [Coffitivity](http://coffitivity.com/) - Noise Maker.
@@ -25,8 +25,8 @@ Productivity Tools 🔨
 * [Spotify](https://www.spotify.com) - Music Maker.
 * [Sublime Text](http://www.sublimetext.com/) - Text Editor.
 
-Social Ties 👔
----------------
+Social Ties
+-----------
 * [Github](http://github.com/jastanton)
 * [Email](jonathan@jastanton.com)
 * [Website](http://jastanton.com)
