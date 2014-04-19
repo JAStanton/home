@@ -16,7 +16,7 @@ Productivity Tools
 * [1Password](http://www.google.com) - Password Manager.
 * [Alfred](http://www.alfredapp.com/) - Better Spotlight.
 * [Coffitivity](http://coffitivity.com/) - Noise Maker.
-* [DragonDrop](http://shinyplasticbag.com/dragondrop/) - Shake anything to put it in temporary staging area on top of all windows to later be picked up again.
+* [DragonDrop](http://shinyplasticbag.com/dragondrop/) - Better drag and drop.
 * [Dropbox](https://www.dropbox.com/) - Cloud file storage.
 * [Pixelmator](http://www.pixelmator.com/) - Photoshop Alt.
 * [Slate](https://github.com/jigish/slate) - Window Management.
