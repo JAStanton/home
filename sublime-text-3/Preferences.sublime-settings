@@ -1,77 +1,30 @@
-// In addition to these rules I often find myself installing these packages:
-//
-// Package Control - Easily install packages.
-// RailsCast Colour Scheme - Beautiful Theme.
-// DocBlockr - Adds doc blocks infront of methods.
-// SideBarEnhancements - Adds commands for sidebar.
 {
-	// This is my latest and most favorite package.
 	"color_scheme": "Packages/RailsCasts Colour Scheme/RailsCastsColorScheme.tmTheme",
-
-	// When drag_text is enabled, clicking on selected text will begin a
-	// drag-drop operation. This is not currently implemented under Linux.
 	"drag_text": false,
-
-	// Set to true to ensure the last line of the file ends in a newline
-	// character when saving
 	"ensure_newline_at_eof_on_save": true,
-
-	// Some trouble files.
 	"file_exclude_patterns":
 	[
 		"._*",
 		".DS_Store",
 		".fuse_hidden*"
 	],
-
 	"font_size": 13,
-
-	// If enabled, will highlight any line with a caret
 	"highlight_line": true,
-
-	// Exiting the application with hot_exit enabled will cause it to close
-	// immediately without prompting. Unsaved modifications and open files will
-	// be preserved and restored when next starting.
-	//
-	// Closing a window with an associated project will also close the window
-	// without prompting, preserving unsaved changes in the workspace file
-	// alongside the project.
 	"hot_exit": false,
-
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-
-	// Spacing between the gutter and the text
 	"margin": 0,
-
-	// Columns in which to display vertical rulers
 	"rulers":
 	[
 		80,
 		100
 	],
-
-	// The number of spaces a tab is considered equal to
 	"tab_size": 2,
-
-	// Set to true to insert spaces when tab is pressed
 	"translate_tabs_to_spaces": true,
-
-	// Trims white space added by auto_indent when moving the caret off the
-	// line.
 	"trim_automatic_white_space": true,
-
-	// Set to true to removing trailing white space on save
 	"trim_trailing_white_space_on_save": true,
-
-	// Disables horizontal scrolling if enabled.
-	// May be set to true, false, or "auto", where it will be disabled for
-	// source code, and otherwise enabled.
 	"word_wrap": false,
-
-	// Set to a value other than 0 to force wrapping at that column rather than
-	// the window width
 	"wrap_width": 80
 }
