@@ -1,3 +1,6 @@
+# Configuration
+# -------------
+
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
@@ -16,8 +19,11 @@ DISABLE_CORRECTION="true"
 # My brain is hardcoded to use sublime instead of st.
 alias sublime="st"
 
+# Plugins
+# -------
+
 # Git because it's delicious.
-plugins=(git)
+plugins+=(git)
 
 # Brew because it's delicious.
 plugins+=(brew)
@@ -36,6 +42,7 @@ source $ZSH/oh-my-zsh.sh
 
 # pretty standard stuff here
 export PATH="/Users/jstanton/homebrew/bin:/Users/jstanton/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin/g4bin"
+
 
 # Sometimes history-substring-search doesn't play nice with iTerm.
 zmodload zsh/terminfo
