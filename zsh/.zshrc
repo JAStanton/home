@@ -1,6 +1,9 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
+# Stop co-opting `!`, I'd rather have more exciting comments without launching vim!
+setopt nobanghist
+
 # Theme
 ZSH_THEME="robbyrussell"
 
