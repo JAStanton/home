@@ -41,11 +41,13 @@ plugins+=(sublime)
 source $ZSH/oh-my-zsh.sh
 
 # pretty standard stuff here
-export PATH="/Users/jstanton/homebrew/bin:/Users/jstanton/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin/g4bin"
+export PATH="/Users/jstanton/scripts:/Users/jstanton/homebrew/bin:/Users/jstanton/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin/g4bin"
 
 # Use brew's ZSH.
 PATH+="/usr/local/bin/zsh"
 
+# I seem to be the only one with this issue with history-substring-search.
+# Possibly because I use iTerm?
 zmodload zsh/terminfo
 bindkey "$terminfo[kcuu1]" history-substring-search-up
 bindkey "$terminfo[kcud1]" history-substring-search-down
