@@ -43,8 +43,9 @@ source $ZSH/oh-my-zsh.sh
 # pretty standard stuff here
 export PATH="/Users/jstanton/homebrew/bin:/Users/jstanton/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin/g4bin"
 
+# Use brew's ZSH.
+PATH+="/usr/local/bin/zsh"
 
-# Sometimes history-substring-search doesn't play nice with iTerm.
 zmodload zsh/terminfo
 bindkey "$terminfo[kcuu1]" history-substring-search-up
 bindkey "$terminfo[kcud1]" history-substring-search-down

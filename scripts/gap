@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# gap is my git add -p && git commit -m shortcut command.
+# It looks for changes and then walks you through them. Then when you reach
+# the end it will ask if you want to commit those changes.
+#
+# Author: jastanton
+
+# Update the index
+git update-index -q --ignore-submodules --refresh
+if git diff-files --quiet --ignore-submodules --; then
+  echo "No changes." && exit 1;
+fi
+
+git add -p
+
+# lets commit them if we have them
+if git diff-files --quiet --ignore-submodules --; then
+  read -p "Commit staged? (y): " R
+  response="$(echo $R | head -c 1)";
+  if [[ -z "$response" || "$response" =~ ^(Y|y)  ]]; then
+     read -p "Commit message: " M
+     git commit -m "$M"
+  fi
+fi

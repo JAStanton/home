@@ -1,0 +1,4 @@
+# Kill process running on a port
+function killport() {
+ kill -9 `lsof -i:$1 -t`
+}
