@@ -1,0 +1,33 @@
+# Configs
+config defaultToCurrentScreen true
+config secondsBeforeRepeat 0.4
+config secondsBetweenRepeat 0.1
+
+# Hints
+bind e:cmd hint ASDFGHJKLQWERTYUIOPCVBN # use whatever keys you want
+
+# Alias
+alias hyper ctrl;alt;cmd
+alias superHyper shift;ctrl;alt;cmd
+
+# Resize
+bind pad6:${hyper} resize +10% +0
+bind pad4:${hyper} resize -10% +0
+bind pad8:${hyper} resize +0   -10%
+bind pad2:${hyper} resize +0   +10%
+
+# Resize
+bind pad3:${hyper} resize +10% +10%
+bind pad7:${hyper} resize -10% -10%
+
+# Nudge
+bind pad6:${superHyper} nudge +10% +0
+bind pad4:${superHyper} nudge -10% +0
+bind pad8:${superHyper} nudge +0   -10%
+bind pad2:${superHyper} nudge +0   +10%
+
+bind pad3:${superHyper} nudge +10% +10%
+bind pad7:${superHyper} nudge -10% -10%
+
+bind pad1:${superHyper} nudge -10% +10%
+bind pad9:${superHyper} nudge +10% -10%
