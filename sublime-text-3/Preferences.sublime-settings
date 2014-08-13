@@ -1,40 +1,40 @@
 {
-	"color_scheme": "Packages/Predawn/predawn.tmTheme",
-	"drag_text": false,
-	"ensure_newline_at_eof_on_save": true,
-	"file_exclude_patterns":
-	[
-		"._*",
-		".DS_Store",
-		".fuse_hidden*",
-		"*.report.txt"
-	],
-	"highlight_line": true,
-	"highlight_modified_tabs": true,
-	"hot_exit": false,
-	"ignored_packages":
-	[
-		"Zen Tabs",
-		"Markdown",
-		"Vintage"
-	],
-	"margin": 0,
-	"rulers":
-	[
-		80,
-		100
-	],
-	"tab_size": 2,
-	"theme": "predawn.sublime-theme",
-	"translate_tabs_to_spaces": true,
-	"trim_automatic_white_space": true,
-	"trim_trailing_white_space_on_save": true,
-	"word_wrap": false,
-	"wrap_width": 80,
-	"font_size": 12,
-	"caret_style": "phase",
-	"tabs_medium": true,
-	"sidebar_xsmall": true,
-	"enable_tab_scrolling": false,
-	"overlay_scroll_bars": "enabled",
+  "color_scheme": "Packages/Predawn/predawn.tmTheme",
+  "drag_text": false,
+  "ensure_newline_at_eof_on_save": true,
+  "file_exclude_patterns":
+  [
+    "._*",
+    ".DS_Store",
+    ".fuse_hidden*",
+    "*.report.txt"
+  ],
+  "highlight_line": true,
+  "highlight_modified_tabs": true,
+  "hot_exit": false,
+  "ignored_packages":
+  [
+    "Zen Tabs",
+    "Markdown",
+    "Vintage"
+  ],
+  "margin": 0,
+  "rulers":
+  [
+    80,
+    100
+  ],
+  "tab_size": 2,
+  "theme": "predawn.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "trim_automatic_white_space": true,
+  "trim_trailing_white_space_on_save": true,
+  "word_wrap": false,
+  "wrap_width": 80,
+  "font_size": 12,
+  "caret_style": "phase",
+  "tabs_medium": true,
+  "sidebar_xsmall": true,
+  "enable_tab_scrolling": false,
+  "overlay_scroll_bars": "enabled",
 }
