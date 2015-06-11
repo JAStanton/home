@@ -1,39 +1,46 @@
 {
-  "color_scheme": "Packages/Predawn/predawn.tmTheme",
+  "caret_style": "phase",
+  "color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
   "drag_text": false,
+  "enable_tab_scrolling": false,
   "ensure_newline_at_eof_on_save": true,
   "file_exclude_patterns":
   [
     "._*",
     ".DS_Store",
     ".fuse_hidden*",
-    "*.report.txt"
+    "*.report.txt",
+    "*.log"
   ],
+  "folder_exclude_patterns":
+  [
+    ".git",
+    "node_modules",
+    "public/js"
+  ],
+  "font_size": 12,
   "highlight_line": true,
   "highlight_modified_tabs": true,
   "hot_exit": false,
   "ignored_packages":
   [
-    "Markdown",
-    "Vintage"
+    "Vintage",
+    "Markdown"
   ],
   "margin": 0,
+  "overlay_scroll_bars": "enabled",
   "rulers":
   [
     80,
     100
   ],
+  "sidebar_xsmall": true,
   "tab_size": 2,
+  "tabs_medium": true,
   "theme": "predawn.sublime-theme",
   "translate_tabs_to_spaces": true,
   "trim_automatic_white_space": true,
   "trim_trailing_white_space_on_save": true,
   "word_wrap": false,
-  "wrap_width": 80,
-  "font_size": 12,
-  "caret_style": "phase",
-  "tabs_medium": true,
-  "sidebar_xsmall": true,
-  "enable_tab_scrolling": false,
-  "overlay_scroll_bars": "enabled",
+  "wrap_width": 80
 }
