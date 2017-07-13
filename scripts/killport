@@ -1,4 +1,9 @@
-# Kill process running on a port
-function killport() {
- kill -9 `lsof -i:$1 -t`
-}
+#!/usr/bin/env bash
+
+PORT_NUMBER="${1}"
+PID="$(lsof -t -i:${PORT_NUMBER})" || echo "No process with port number ${PORT_NUMBER}"
+
+if [[ "${PID}" ]]; then
+  echo "killing PID ${PID}"
+  kill -9 ${PID}
+fi
