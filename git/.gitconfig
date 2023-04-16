@@ -1,11 +1,13 @@
 [user]
   name = Jonathan Stanton
   email = jonathan@jastanton.com
+
 [credential]
   helper = osxkeychain
-[filter "media"]
-	clean = git-media-clean %f
-	smudge = git-media-smudge %f
+
+[url "https://github.com/"]
+	insteadOf = ssh://git@github.com/
+	insteadOf = git@github.com:
 
 [alias]
   aa = add --all
@@ -24,18 +26,6 @@
 [color]
   ui = auto
 
-[core]
-  excludesfile = .gitignore.global
-  quotepath = false
-
-[include]
-  path = .gitconfig.os
-  path = .gitconfig.personal
-
 [push]
-  default = simple
+	default = current
 
-[url "https://github.com/"]
-  insteadOf = "gh:"
-[url "https://github"]
-	insteadOf = git://github
